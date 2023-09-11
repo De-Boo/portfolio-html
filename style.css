@@ -1,0 +1,188 @@
+    body {
+      margin: 0;
+
+    }
+    @font-face {
+      font-family: satisfy;
+      src: url(fonts/Satisfy-Regular.ttf);
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px;
+    }
+    .items {
+      grid-column-start: span 4;
+      grid-column-end: auto;
+      grid-row-start: span 4;
+      grid-row-end: auto;
+      background-color: red;
+    }
+    .itf {
+      background-color: #cdb4db;
+    }
+    .its {
+      text-align: center;
+      background-color: #fffdfa;
+      height: auto;
+      
+    }
+    .itt {
+      background-color: #cdb4db;
+    }
+    .cloud {
+      float: right;
+      margin-right: 320px;
+      margin-bottom: 100px;
+      margin-top: 35px;
+    }
+    h1 {
+      clear: right;
+      text-align: center;
+      font-family: satisfy, sans-serif;
+      font-size: 50px;
+      text-transform: capitalize;
+      margin-bottom: -15px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 40px;
+      
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #8f57ae;
+    }
+    span {
+      text-decoration: underline;
+    }
+    .cloud1 {
+      float: left;
+      margin-left: 190px;
+      margin-top: 50px;
+    }
+    .mountain {
+      margin-top: -24px;
+    }
+
+    .main-body {
+      text-align: center;
+    }
+    .main-body img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    
+    .circle {
+      border-radius: 50%;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 120px;
+    }
+    .its h3 {
+      font-size: 45px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .para, .para1 {
+      width: 500px;
+      font-size: 20px;
+      margin: auto;
+      text-align: center;
+      color: #00000080;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    .wrap {
+      float: left;
+      margin-top: -15px;
+    }
+    .pp {
+      width: 200px;
+      margin-left: 55px;
+    }
+    .para1 {
+      width: 450px;
+      text-align: justify;
+      margin-bottom: 100px;
+      
+    }
+   .reduce {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: -10px;
+    margin-left: -100px;
+
+   }
+   .para2 {
+      width: 190px;
+      margin-left: 700px;
+    }
+    button {
+      background-color: #cdb4db;
+      width: 100px;
+      border: 2px solid #cdb4db;
+      font-weight: 900;
+      font-family: tahoma;
+      text-transform: uppercase;
+      font-size: 11px;
+      padding: 10px;
+      margin-bottom: 40px;
+      border-radius: 8px;
+      
+    }
+    a {
+      text-decoration: none;
+      color: #fffdfa;
+    }
+    .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .itt > p {
+      text-align: center;
+      color: whitesmoke;
+      padding-bottom: 20px;
+    }
+    ul {
+      display: flex;
+    }
+    li {
+      padding: 20px;
+      list-style-type: none;
+    }
+    li a {
+      text-decoration: none;
+      color: #8f57ae;
+    }
+    @media only screen and (max-width: 600px) {
+      .cloud {
+        margin-right: 10%;
+      }
+      .cloud1 {
+        margin-left: 2.5em;
+        margin-top: -6%;
+      }
+      .mountain {
+        width: 75%;
+        margin-left: 12.5%;
+      }
+      .para, .para1 {
+        width: 77%;
+        text-align: justify;
+      }
+      .pwrap > p, .ppwrap > p {
+        margin-top: -5%;
+      }
+      .bbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
